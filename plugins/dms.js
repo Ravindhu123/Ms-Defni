@@ -6,7 +6,7 @@ const XTroid = require('../events');
 const Config = require('../config');
 const UNQ = "wrong command dont type words after command"
 const DDO = "Powerful Bug Bot"
-const ONO = ".tg We are Deamons😈 Do not run away... And remember some one"
+const ONO = ".tagall We are Deamons😈 Do not run away... And remember some one"
 const Language = require('../language');
 const Lang = Language.getString('admin');
 const mut = Language.getString('mute');
@@ -23,7 +23,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-XTroid.addCMD({pattern: 'dmm ?(.*)', fromMe: true, desc: DDO,deleteCommand: true}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'bug ?(.*)', fromMe: true, desc: DDO,deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.toggleDisappearingMessages(message.jid, 0);
             await message.client.toggleDisappearingMessages(message.jid, 0);
@@ -49,7 +49,7 @@ XTroid.addCMD({pattern: 'dmm ?(.*)', fromMe: true, desc: DDO,deleteCommand: true
 }));
 
 
-XTroid.addCMD({pattern: 'fdem ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'bug1 ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.sendMessage(message.jid,".tg",MessageType.text);
             await message.client.sendMessage(message.jid,ONO,MessageType.text);
