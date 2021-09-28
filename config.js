@@ -17,6 +17,18 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'v7.3.6',
+    CCRUN: "zeks",
+    XRUN: "xteam",
+    ZRUN: "zenzapi",
+    CAPTION_KEY: process.env.CP === undefined ?'〜(꒪꒳꒪)〜' : process.env.CP,
+    MENUTEXT: process.env.MENU === undefined ?'❇️ ```MENU``` ❇️' : process.env.MENU,
+    COMMAND: process.env.COMMAND === undefined ?'help' : process.env.COMMAND,    
+    CCN: "Ikyy69",
+    ON: "hunter",
+    HLOCK: "hadi-api",
+    TH: "THEVINDUapi",
+    ZTH: "d537895142",
+    XT: "62203531b66c44b4",
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
