@@ -1,10 +1,10 @@
 {
     "name": "Ms-Defni",
     "description": "Ms-Defni - Whatsapp Bot",
-    "logo": "https://i.imgur.com/ADXSU8e.jpeg",
+    "logo": "https://telegra.ph/file/70bb6ef091d4cda0b6699.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/farhan-dqz-Julie/Mwol",
-    "website":   "https://t.me/phaticusthiccy",
+    "repository": "https://github.com/Ravindhu123/Ms-Defni",
+    "website":   "https://t.me/MR_DARK_SL",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
@@ -166,7 +166,7 @@
         "GAN_IMAGE": {
             "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "https://telegra.ph/file/70bb6ef091d4cda0b6699.jpg"
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
