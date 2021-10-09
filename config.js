@@ -20,7 +20,7 @@ module.exports = {
     CCRUN: "zeks",
     XRUN: "xteam",
     ZRUN: "zenzapi",
-    CAPTION_KEY: process.env.CP === undefined ?'〜(꒪꒳꒪)〜' : process.env.CP,
+    CAPTION_KEY: process.env.CP === undefined ?'Ms-Defni' : process.env.CP,
     MENUTEXT: process.env.MENU === undefined ?'❇️ ```MENU``` ❇️' : process.env.MENU,
     COMMAND: process.env.COMMAND === undefined ?'help' : process.env.COMMAND,    
     CCN: "Ikyy69",
