@@ -4,7 +4,6 @@ const axios = require('axios');
 const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
-const ALang = Language.getString('amazone');
 const capt = "🦹‍♀️Defni Tiktok Downloader* 🕊\n"
 
 if (Config.WORKTYPE == 'public') {
